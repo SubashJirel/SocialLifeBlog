@@ -18,6 +18,12 @@ img {
   max-width: 100%;
   display: block;
 }
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1.5em;
+}
 /* =================
 Typography
 ================= */
@@ -32,6 +38,9 @@ h3 {
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+h3 {
+  color: #1792d2;
 }
 a {
   color: #1792d2;
@@ -79,6 +88,9 @@ a:focus {
 .widget-title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+}
+.widget-post-title {
+  color: #143774;
 }
 /* =================
 Layout
